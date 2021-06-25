@@ -1,3 +1,7 @@
+button, li{
+    font-family: Arial, sans-serif;
+}
+
 li{
     list-style: none;
 }
@@ -7,8 +11,26 @@ li{
     margin-top: 0;
 }
 
-#nav-about-store li{
+#nav-about-store li, #nav-gmail-images-signin li{
     display: inline-block;
+    padding-left: 24px;
+    padding-top: 24px;
+    font-size: 13px;
+}
+
+.store-space{
+    position: relative;
+    right: 10px;
+}
+
+
+li a, button a{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.70);
+}
+
+li a:hover{
+    text-decoration: underline;
 }
 
 nav{
@@ -18,4 +40,55 @@ nav{
 
 #nav-gmail-images-signin{
     justify-content: right;
+    display: flex;
 }
+
+#nav-gmail-images-signin ul{
+    margin-top: 0;
+}
+
+#nav-gmail-images-signin li{
+    display: inline-block;
+    font-size: 13px;
+}
+
+.small-space{
+    position: relative;
+    right: 10px;
+}
+
+#nav-gmail-images-signin img{
+    height: auto; 
+    width: auto; 
+    max-width: 25px; 
+    max-height: 25px;
+    padding-top: 17px;
+    padding-left: 8px;
+    padding-right: 10px;
+    opacity: 0.6;
+    margin-right: 8px;
+}
+
+#nav-gmail-images-signin img:hover{
+    opacity: 1;
+}
+
+button a{
+    color:white;
+}
+
+#nav-gmail-images-signin button{
+    background-color:#4285f4;
+    font-size: 13px;
+    font-weight: bold;
+    height: 2.3em;
+    width: 5.5em;
+    margin-top: 15px;
+    margin-right: 33px;
+    border: none;
+    border-radius: 3px;
+}
+
+
+
+
