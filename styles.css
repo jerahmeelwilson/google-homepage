@@ -91,4 +91,74 @@ button a{
 
 
 
+#google-logo{
+    margin-left: 50%;
+    margin-top: 10%;
+}
 
+#searchbar,#search-buttons{
+    margin-left: 50%;
+}
+
+#searchbar{
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    width: 32%;
+    border-radius: 35px;
+    position: relative;
+    right: 10%;
+    padding: 0;
+}
+
+#searchbar img{
+    height: auto; 
+    width: auto; 
+    max-width: 25px; 
+    max-height: 25px;
+    padding-top: 10px;
+}
+
+#searchbar input{
+    width: 85%;
+    border:none;
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+#searchbar input:focus{
+    outline: none;
+}
+
+.search-left{
+    margin-left: 20px;
+}
+
+.mic-right{
+    position: relative;
+    
+}
+
+form{
+    margin-top: 1.5%;
+}
+
+#search-buttons{
+    margin-top: 1.5%;
+    position: relative;
+    right: 1%;
+}
+
+#search-buttons button{
+    background-color: #F2F2F2;
+    padding-top: 0.5em;
+    padding-left:1em;
+    padding-right:1em;
+    padding-bottom: 0.5em;
+    margin-right: 10px;
+    border: none;
+}
+
+main{
+    width: 2000px;
+    
+}
