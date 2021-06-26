@@ -1,3 +1,6 @@
+
+
+
 button, li{
     font-family: Arial, sans-serif;
 }
@@ -92,8 +95,8 @@ button a{
 
 
 #google-logo{
-    margin-left: 50%;
-    margin-top: 10%;
+    padding-left: 50%;
+    padding-top: 10%;
 }
 
 #searchbar,#search-buttons{
@@ -101,28 +104,35 @@ button a{
 }
 
 #searchbar{
-    border: 1px solid rgba(0, 0, 0, 0.178);
-    width: 32%;
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    width:580px;
     border-radius: 35px;
     position: relative;
     right: 10%;
     padding: 0;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+#searchbar:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.178);
 }
 
 #searchbar img{
     height: auto; 
     width: auto; 
-    max-width: 25px; 
-    max-height: 25px;
+    max-width: 20px; 
+    max-height: 20px;
     padding-top: 10px;
 }
 
 #searchbar input{
-    width: 85%;
+    width: 80%;
     border:none;
     padding-bottom: 10px;
     position: relative;
-    bottom: 10px;
+    bottom: 3px;
+    left: 10px;
 }
 
 #searchbar input:focus{
@@ -130,12 +140,16 @@ button a{
 }
 
 .search-left{
-    margin-left: 20px;
+    margin-left: 15px;
+    position: relative;
+    top: 3px;
+    opacity: 0.5;
 }
 
 .mic-right{
     position: relative;
-    
+    top: 3px;
+    left: 35px;
 }
 
 form{
@@ -151,25 +165,41 @@ form{
 #search-buttons button{
     background-color: #F2F2F2;
     padding-top: 0.75em;
-    padding-left:1em;
-    padding-right:1em;
+    padding-left:1.3em;
+    padding-right:1.3em;
     padding-bottom: 0.75em;
     margin-right: 10px;
     border: none;
     border-radius: 3px;
+    font-size: 14px;
+    color: #5F6368;
 }
 
 main{
-    width: 2000px;
-    
+    width: 100%;
 }
+
+#container{
+  width: 1500px;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+  padding-right: 10%;
+  position: relative;
+  z-index: 999;
+  right: 10px;
+  bottom: 10px;
+}
+
 footer {
     display: flex;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     justify-content: space-between;
     width: 100%;
     background-color: #F2F2F2;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.061);
 }
 
 footer ul{
@@ -178,14 +208,20 @@ footer ul{
 
 #advert-business-how{
     padding-inline-start: 0;
+    position: relative;
+    left: 5px;
 }
 
 #advert-business-how li, #privacy-terms-settings li{
-    font-size: 15px;
+    font-size: 14px;
     color: rgba(0, 0, 0, 0.70);
-    padding-top: 15px; 
+    padding-top: 8px;
+    position: relative;
+    top: 5px;
+
 }
 
 #privacy-terms-settings{
     margin-right: 30px;
 }
+
