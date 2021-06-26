@@ -11,7 +11,7 @@ li{
     margin-top: 0;
 }
 
-#nav-about-store li, #nav-gmail-images-signin li{
+#nav-about-store li, #nav-gmail-images-signin li, #advert-business-how li, #privacy-terms-settings li{
     display: inline-block;
     padding-left: 24px;
     padding-top: 24px;
@@ -38,7 +38,7 @@ nav{
     justify-content: space-between;
 }
 
-#nav-gmail-images-signin{
+#nav-gmail-images-signin, #privacy-terms-settings{
     justify-content: right;
     display: flex;
 }
@@ -150,15 +150,42 @@ form{
 
 #search-buttons button{
     background-color: #F2F2F2;
-    padding-top: 0.5em;
+    padding-top: 0.75em;
     padding-left:1em;
     padding-right:1em;
-    padding-bottom: 0.5em;
+    padding-bottom: 0.75em;
     margin-right: 10px;
     border: none;
+    border-radius: 3px;
 }
 
 main{
     width: 2000px;
     
+}
+footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #F2F2F2;
+}
+
+footer ul{
+    margin-top: 0;
+}
+
+#advert-business-how{
+    padding-inline-start: 0;
+}
+
+#advert-business-how li, #privacy-terms-settings li{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.70);
+    padding-top: 15px; 
+}
+
+#privacy-terms-settings{
+    margin-right: 30px;
 }
