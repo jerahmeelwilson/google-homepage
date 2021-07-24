@@ -434,3 +434,60 @@ footer ul{
        right: -6%;
    }
 }
+
+@media only screen and (min-width: 1024px) and (max-width:1439px){
+    #container, #nav-about-store, #nav-gmail-images-signin, #advert-business-how, #privacy-terms-settings{
+       transform: scale(0.875);
+   }
+
+   #google-logo{       
+       display: block;
+       position: relative;
+       left: 350px;
+       bottom: -165px;
+   }
+   form{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       position: relative;
+       bottom: -175px;
+   }
+   #search-buttons, #searchbar{
+       margin-left: 0;
+   }
+   #searchbar{
+       right: 0;
+       width: 575px;
+       margin-bottom: 20px;
+   }
+   .mic-right{
+       left: 40px;
+   }
+   #nav-about-store{
+       position: fixed;
+       bottom: 94%;
+       left: -4.5%;
+   }
+   #nav-gmail-images-signin{
+       position: fixed;
+       bottom: 94.5%;
+       right: -2%;
+   }
+   footer{
+       height: 35px;
+       width: 1048px;
+       margin-left: -20px;
+   }
+
+   #advert-business-how{
+       position: fixed;
+       top: 95.75%;
+       left: -2%;
+   }
+   #privacy-terms-settings{
+       position: fixed;
+       top: 95.75%;
+       right: -2%;
+   }
+}
