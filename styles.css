@@ -322,7 +322,7 @@ footer ul{
     }
 }
 
-@media only screen and (min-width: 425px) and (max-width: 768px){
+@media only screen and (min-width: 425px) and (max-width: 767px){
     #container, #nav-about-store, #nav-gmail-images-signin, #advert-business-how, #privacy-terms-settings{
        transform: scale(0.425);
    }
@@ -375,5 +375,62 @@ footer ul{
        position: fixed;
        top: 97%;
        right: -26%;
+   }
+}
+
+@media only screen and (min-width: 768px) and (max-width:1023px){
+    #container, #nav-about-store, #nav-gmail-images-signin, #advert-business-how, #privacy-terms-settings{
+       transform: scale(0.700);
+   }
+
+   #google-logo{       
+       display: block;
+       position: relative;
+       left: 220px;
+       bottom: -150px;
+   }
+   form{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       position: relative;
+       bottom: -165px;
+   }
+   #search-buttons, #searchbar{
+       margin-left: 0;
+   }
+   #searchbar{
+       right: 0;
+       width: 575px;
+       margin-bottom: 20px;
+   }
+   .mic-right{
+       left: 40px;
+   }
+   #nav-about-store{
+       position: fixed;
+       bottom: 93%;
+       left: -6%;
+   }
+   #nav-gmail-images-signin{
+       position: fixed;
+       bottom: 93.5%;
+       right: -6%;
+   }
+   footer{
+       height: 25px;
+       width: 800px;
+       margin-left: -20px;
+   }
+
+   #advert-business-how{
+       position: fixed;
+       top: 95.75%;
+       left: -6%;
+   }
+   #privacy-terms-settings{
+       position: fixed;
+       top: 95.75%;
+       right: -6%;
    }
 }
