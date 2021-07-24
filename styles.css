@@ -36,10 +36,6 @@ li a:hover{
     text-decoration: underline;
 }
 
-nav{
-    display:flex;
-    justify-content: space-between;
-}
 
 #nav-gmail-images-signin, #privacy-terms-settings{
     justify-content: right;
@@ -218,7 +214,7 @@ footer ul{
 }
 
 @media only screen and (max-width: 320px){
-    #container{
+    #container, #nav-about-store, #nav-gmail-images-signin{
         transform: scale(0.275);
     }
 
@@ -242,4 +238,17 @@ footer ul{
     #searchbar{
         right: 0;
     }
+    #nav-about-store{
+        position: fixed;
+        bottom: 95%;
+        left: -21%;
+    }
+    #nav-gmail-images-signin{
+        position: fixed;
+        bottom: 95.7%;
+        right: -37%;
+    }
+
+
+
 }
