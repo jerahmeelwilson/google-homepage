@@ -95,8 +95,7 @@ button a{
 
 
 #google-logo{
-    padding-left: 50%;
-    padding-top: 10%;
+
 }
 
 #searchbar,#search-buttons{
@@ -180,16 +179,9 @@ main{
 }
 
 #container{
-  width: 1500px;
-  height: 100%;
   margin: 0 auto;
-  display: block;
   max-width: 100%;
-  padding-right: 10%;
-  position: relative;
   z-index: 999;
-  right: 10px;
-  bottom: 10px;
 }
 
 footer {
@@ -225,3 +217,29 @@ footer ul{
     margin-right: 30px;
 }
 
+@media only screen and (max-width: 320px){
+    #container{
+        transform: scale(0.275);
+    }
+
+    #google-logo{
+        margin: 0 auto;
+        display: block;
+        position: relative;
+        bottom: 125px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        bottom: 100px;
+        
+    }
+    #search-buttons, #searchbar{
+        margin-left: 0;
+    }
+    #searchbar{
+        right: 0;
+    }
+}
