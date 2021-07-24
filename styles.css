@@ -1,6 +1,3 @@
-
-
-
 button, li{
     font-family: Arial, sans-serif;
 }
@@ -181,7 +178,6 @@ main{
 }
 
 footer {
-    display: flex;
     position: fixed;
     bottom: 0;
     justify-content: space-between;
@@ -214,7 +210,7 @@ footer ul{
 }
 
 @media only screen and (max-width: 320px){
-    #container, #nav-about-store, #nav-gmail-images-signin{
+    #container, #nav-about-store, #nav-gmail-images-signin, #advert-business-how, #privacy-terms-settings{
         transform: scale(0.275);
     }
 
@@ -229,8 +225,7 @@ footer ul{
         flex-direction: column;
         align-items: center;
         position: relative;
-        bottom: 100px;
-        
+        bottom: 100px;       
     }
     #search-buttons, #searchbar{
         margin-left: 0;
@@ -248,7 +243,21 @@ footer ul{
         bottom: 95.7%;
         right: -37%;
     }
+    footer{
+        height: 10px;
+        width: 340px;
+        margin-left: -20px;
+    }
 
-
+    #advert-business-how{
+        position: fixed;
+        top: 97.5%;
+        left: -35%;
+    }
+    #privacy-terms-settings{
+        position: fixed;
+        top: 97.5%;
+        right: -35%;
+    }
 
 }
