@@ -90,7 +90,7 @@ button a{
 
 
 #google-logo{
-
+    margin: 0 auto;
 }
 
 #searchbar,#search-buttons{
@@ -275,7 +275,6 @@ footer ul{
         display: block;
         position: relative;
         bottom: 10px;
-        left: 30px;
     }
     form{
         display: flex;
@@ -386,7 +385,6 @@ footer ul{
    #google-logo{       
        display: block;
        position: relative;
-       left: 220px;
        bottom: -150px;
    }
    form{
@@ -443,7 +441,6 @@ footer ul{
    #google-logo{       
        display: block;
        position: relative;
-       left: 365px;
        bottom: -185px;
    }
    form{
@@ -500,7 +497,6 @@ footer ul{
    #google-logo{       
        display: block;
        position: relative;
-       left: 575px;
        bottom: -195px;
    }
    form{
@@ -563,7 +559,6 @@ footer ul{
    #google-logo{       
        display: block;
        position: relative;
-       left: 1140px;
        bottom: -195px;
    }
    form{
