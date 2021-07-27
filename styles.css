@@ -8,10 +8,17 @@ li{
     list-style: none;
 }
 
-#nav-about-store {
-    padding: 0;
-    margin-top: 0;
+#nav-about-store{
+
+    position: relative;
+    top: -2%;
 }
+
+#nav-gmail-images-signin{
+    position: relative;
+    top: 0%;
+}
+
 
 #nav-about-store li, #nav-gmail-images-signin li, #advert-business-how li, #privacy-terms-settings li{
     display: inline-block;
@@ -211,6 +218,11 @@ footer ul{
     margin-right: 30px;
 }
 
+#advert-business-how, #privacy-terms-settings{
+    position:  relative;
+    
+}
+
 @media only screen and (min-width: 320px) and (max-width: 374px){
     #container, #nav-about-store, #nav-gmail-images-signin, #advert-business-how, #privacy-terms-settings{
         transform: scale(0.300);
@@ -305,7 +317,6 @@ footer ul{
     }
     footer{
         height: 13px;
-        width: 500px;
         margin-left: -20px;
     }
 
@@ -361,7 +372,6 @@ footer ul{
    }
    footer{
        height: 15px;
-       width: 500px;
        margin-left: -20px;
    }
 
@@ -417,7 +427,6 @@ footer ul{
    }
    footer{
        height: 25px;
-       width: 800px;
        margin-left: -20px;
    }
 
@@ -473,7 +482,6 @@ footer ul{
    }
    footer{
        height: 40px;
-       width: 1048px;
        margin-left: -20px;
    }
 
@@ -535,7 +543,6 @@ footer ul{
    }
    footer{
        height: 40px;
-       width: 1480px;
        margin-left: -20px;
    }
 
@@ -597,7 +604,6 @@ footer ul{
    }
    footer{
        height: 40px;
-       width: 100%;
        margin-left: 0;
    }
 
