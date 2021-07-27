@@ -437,45 +437,45 @@ footer ul{
 
 @media only screen and (min-width: 1024px) and (max-width:1439px){
     #container, #nav-about-store, #nav-gmail-images-signin, #advert-business-how, #privacy-terms-settings{
-       transform: scale(0.875);
+       transform: scale(0.975);
    }
 
    #google-logo{       
        display: block;
        position: relative;
-       left: 350px;
-       bottom: -165px;
+       left: 365px;
+       bottom: -185px;
    }
    form{
        display: flex;
        flex-direction: column;
        align-items: center;
        position: relative;
-       bottom: -175px;
+       bottom: -200px;
    }
    #search-buttons, #searchbar{
        margin-left: 0;
    }
    #searchbar{
        right: 0;
-       width: 575px;
+       width: 500px;
        margin-bottom: 20px;
    }
    .mic-right{
-       left: 40px;
+       left: 20px;
    }
    #nav-about-store{
        position: fixed;
        bottom: 94%;
-       left: -4.5%;
+       left: -4%;
    }
    #nav-gmail-images-signin{
        position: fixed;
-       bottom: 94.5%;
-       right: -2%;
+       bottom: 94%;
+       right: -0.5%;
    }
    footer{
-       height: 35px;
+       height: 40px;
        width: 1048px;
        margin-left: -20px;
    }
@@ -483,11 +483,74 @@ footer ul{
    #advert-business-how{
        position: fixed;
        top: 95.75%;
-       left: -2%;
+       left: -0.25%;
    }
    #privacy-terms-settings{
        position: fixed;
        top: 95.75%;
-       right: -2%;
+       right: -0.25%;
+   }
+}
+
+@media only screen and (min-width: 1440px) and (max-width:2560px){
+    #container, #nav-about-store, #nav-gmail-images-signin, #advert-business-how, #privacy-terms-settings{
+       transform: scale(0.975);
+   }
+
+   #google-logo{       
+       display: block;
+       position: relative;
+       left: 575px;
+       bottom: -195px;
+   }
+   form{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       position: relative;
+       bottom: -200px;
+   }
+   #search-buttons, #searchbar{
+       margin-left: 0;
+   }
+
+   #search-buttons{
+        position: relative;
+        bottom: 10px;
+        left: 10px;
+    }
+   #searchbar{
+       right: 0;
+       width: 500px;
+       margin-bottom: 20px;
+   }
+   .mic-right{
+       left: 20px;
+   }
+   #nav-about-store{
+       position: fixed;
+       bottom: 95%;
+       left: -2.5%;
+   }
+   #nav-gmail-images-signin{
+       position: fixed;
+       bottom: 95%;
+       right: -0.5%;
+   }
+   footer{
+       height: 40px;
+       width: 1480px;
+       margin-left: -20px;
+   }
+
+   #advert-business-how{
+       position: fixed;
+       top: 96.5%;
+       left: -0.25%;
+   }
+   #privacy-terms-settings{
+       position: fixed;
+       top: 96.5%;
+       right: -0.25%;
    }
 }
