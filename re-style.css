@@ -1,0 +1,280 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+End of RESET
+*/
+html{
+    font-family: Arial, sans-serif;
+    font-size: 1.3vw;
+    color:rgba(0, 0, 0, 0.30);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    display: inline-block;
+}
+
+li{
+    margin: 1em 0.5em;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.70);
+}
+
+#nav-about-store, #nav-gmail-images-signin{
+    display:flex;
+}
+#nav-about-store{
+    margin-left: 1.5em;
+    align-items: center;
+}
+#nav-gmail-images-signin{
+    margin-right: 1.5em;
+    align-items: center;
+}
+
+.resize img{
+    display:inline-block;
+    height: auto; 
+    width: auto;
+    max-width: 2.3vw; 
+    max-height: 2.3vw;
+    opacity: 0.6;
+}
+
+.resize{
+    position:relative;
+    top: 0.5em;
+}
+#sign-in{
+    background-color:#4285f4;
+    color:white;
+    font-weight: bold;
+    padding: 0.5em 1em;   
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+footer{
+    margin-top: auto;
+}
+#google-logo{
+    display:block;
+    max-width: 23%;
+    margin-top: 13%;
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#searchbar{
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    border-radius: 35px;
+    background-color: white;
+    width: 50%;
+    height: 3em;
+    display:flex;
+    align-items: center;
+    margin-top: 3%; 
+}
+
+#searchbar img{
+    height: auto; 
+    width: auto; 
+    max-width: 1.5em; 
+    max-height: 1.5em;
+}
+
+#searchbar input{
+    border:none;
+    width: 90%;
+    font-size: 1.5em;
+}
+#searchbar:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.178);
+}
+
+#searchbar input:focus{
+    outline: none;
+}
+
+.search-left{
+    padding-left: 1.5em;
+}
+.mic-right{
+    padding-right: 1.5em;
+}
+
+#search-buttons{
+    margin-top: 2.5%;
+}
+
+#search-buttons button{
+    font-size: inherit;
+    background-color: #F2F2F2;
+    padding-top: 0.75em;
+    padding-left:1.3em;
+    padding-right:1.3em;
+    padding-bottom: 0.75em;
+    margin-right: 2px;
+    border: none;
+    border-radius: 3px;
+    color: #5F6368;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.061);
+    
+}
+
+#advert-business-how{
+    margin: auto 1.5em;
+    color:rgba(0, 0, 0, 0.30);
+}
+
+#privacy-terms-settings{
+    margin: auto 1.5em;
+}
+
+a{
+    color:rgba(0, 0, 0, 0.70);
+}
+
+@media only screen and (min-width: 1440px) {
+    html{
+        font-size: 0.9vw;
+    }
+
+    .resize img{
+        max-width: 1.7vw; 
+        max-height: 1.7vw;
+    }
+    li{
+        margin: 1.2em 0.5em;
+    }
+    
+    #google-logo{
+        margin-top:10%;
+    }
+    #searchbar{
+        width: 40%;
+        height: 3.5em;
+        margin-top: 2%;
+    }
+    #search-buttons{
+        margin-top: 2%;
+    }
+    #search-buttons button{
+        margin-right: 8px;
+    }
+    #advert-business-how{
+        margin: auto 1.3em;
+    }
+    #advert-business-how li,#privacy-terms-settings li{
+        margin-right: 1.6em;
+    }
+    
+    #privacy-terms-settings{
+        margin: auto 1.3em;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+    html{
+        font-size: 0.55vw;
+    }
+
+    .resize img{
+        max-width: 1vw; 
+        max-height: 1vw;
+    }
+    li{
+        margin: 1.2em 0.5em;
+    }
+    
+    #google-logo{
+        margin-top:5.5%;
+    }
+    #searchbar{
+        width: 23%;
+        height: 3.5em;
+        margin-top: 1%;
+    }
+    #search-buttons{
+        margin-top: 1.2%;
+    }
+    #search-buttons button{
+        margin-right: 8px;
+    }
+    #advert-business-how{
+        margin: auto 1.3em;
+    }
+    #advert-business-how li,#privacy-terms-settings li{
+        margin-right: 1.6em;
+    }
+    
+    #privacy-terms-settings{
+        margin: auto 1.3em;
+    }
+}
